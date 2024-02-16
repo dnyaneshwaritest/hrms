@@ -53,7 +53,7 @@ const Sidebar = () => {
   } = theme.useToken();
   return (
     
-    
+    <div style={{marginLeft:'-100%'}}>
     <Layout
       style={{
         minHeight: '100vh',
@@ -70,6 +70,7 @@ const Sidebar = () => {
       </Sider>
       
     </Layout>
+    </div>
     
   );
 };
